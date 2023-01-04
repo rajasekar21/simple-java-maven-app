@@ -19,6 +19,10 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>17</maven.compiler.source>
     <maven.compiler.target>17</maven.compiler.target>
+    <!--properties for sonarQube analysis -->
+    <sonar.host.url>http://3.110.235.71:9000</sonar.host.url>
+    <sonar.projectKey>Simple-Java-Maven-App</sonar.projectKey>
+    <sonar.login>sqp_de1cf0353319e99ae8c6dfac974e47ca6f7a65af</sonar.login>
   </properties>
   <build>
     <pluginManagement>
